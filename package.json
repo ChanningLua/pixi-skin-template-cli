@@ -1,0 +1,39 @@
+{
+  "name": "pixi-skin-cli",
+  "version": "0.0.3",
+  "preferGlobal": true,
+  "bin": {
+    "pixiskin": "bin/pixiskinbase.js"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "child_process": "^1.0.2",
+    "co": "^4.6.0",
+    "commander": "^2.17.1",
+    "conventional-changelog": "^3.0.6",
+    "download": "^7.1.0",
+    "download-git-repo": "^1.1.0",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.1.0",
+    "node-ipc": "^9.1.4",
+    "open": "^8.2.0",
+    "ora": "^3.0.0",
+    "path": "^0.12.7",
+    "semver": "^5.5.1",
+    "user-home": "^2.0.0"
+  },
+  "description": "pixi-skin模板手架工具",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liuchuanming",
+  "license": "ISC"
+}

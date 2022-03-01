@@ -1,0 +1,29 @@
+{
+  "dirName": ".pixiskin-templates",
+  "configName": ".xesrc",
+  "registry": "https://registry.npmjs.org/",
+  "tinyKey": "",
+  "scaffoldList": [
+    {
+      "short": "Single-templateToC",
+      "value": "templateToC-Single",
+      "name": "C端-单项目",
+      "description": "C端单项目模板",
+      "gitUrl": ""
+    },
+    {
+      "short": "Multi-templateToC",
+      "value": "templateToC-MultiProject",
+      "name": "C端-多项目",
+      "description": "C端多项目模板",
+      "gitUrl": ""
+    },
+    {
+      "short": "pixi-skin-template",
+      "value": "pixi-skin-template",
+      "name": "C端-互动项目",
+      "description": "C端互动项目模板",
+      "gitUrl": "https://github.com/ChanningLua/pixi-skin-template.git"
+    }
+  ]
+}
